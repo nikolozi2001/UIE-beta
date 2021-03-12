@@ -6,9 +6,12 @@
         display: none;
     }
     .box-title{
-        margin-top: 30vh;
+        margin-top: 53vh;
     }
     .box{
         height: 800px;
+    }
+    .main-nav{
+        margin-left: 156px;
     }
 }
