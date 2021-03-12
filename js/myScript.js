@@ -1,18 +1,41 @@
-'use strict';
 
-(function() {
-  var body = document.body;
-  var burgerMenu = document.getElementsByClassName('b-menu')[0];
-  var burgerContain = document.getElementsByClassName('b-container')[0];
-  var burgerNav = document.getElementsByClassName('b-nav')[0];
+navigation = () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navBar = document.querySelector('.nav-links');
+    const introTexts = document.querySelectorAll('.main-intro-text');
+    const scrollButton = document.getElementById('scroll-top-button');
 
-  burgerMenu.addEventListener('click', function toggleClasses() {
-    [body, burgerContain, burgerNav].forEach(function (el) {
-      el.classList.toggle('open');
+    hamburger.addEventListener('click', function () {
+        hamburger.classList.toggle('hamburger-line');
+        navBar.classList.toggle('nav-links-open');
     });
-  }, false);
-})();
 
+    introFade = () => {
+        introTexts.forEach((introText, index) => {
+            introText.style.animation = `textpop 0.4s ease ${index / 5 + 0.5}s forwards`;
+        });
+    };
+
+    window.addEventListener('scroll', function () {
+        let scrolledY = pageYOffset;
+
+        if (scrolledY > 30) {
+            scrollButton.classList.add('scroll-button-active');
+        } else {
+            scrollButton.classList.remove('scroll-button-active');
+        }
+
+        scrollButton.addEventListener('click', () => {
+            document.documentElement.scrollTop = 0;
+        });
+
+    });
+
+    introFade();
+};
+
+
+navigation();
 // slider js script
 var slideIndex = 1;
 	showDivs(slideIndex);
