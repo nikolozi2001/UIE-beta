@@ -87,7 +87,7 @@
   }
   
   .topnav a:hover, .dropdown:hover .dropbtn {
-	background-color: #555;
+	background-color: #061035;
 	color: white;
   }
   
@@ -111,9 +111,9 @@
 	height: 100%;
 }
 .box-title{
-	font-size: 30px;
+	font-size: 35px;
     text-align: center;
-	color: rgb(255, 225, 0);
+	color: white;
 	font-weight: bold;
 	margin-top: 44vh;
     font-family: 'Lato', sans-serif;
