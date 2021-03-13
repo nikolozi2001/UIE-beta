@@ -8,14 +8,10 @@ function myFunction() {
   }
 
 // starts loader
-const loader = document.querySelector(".loader");
-
-window.addEventListener("load", () => {
-    loader.style.opacity = "0";
-    setTimeout(() => {
-        loader.style.display = "none";
-    }, 500);
-});
+var overlay = document.getElementById("overlay");
+window.addEventListener('load',function (argument) {
+	overlay.style.display='none';
+})
 
 // slider js script
 var slideIndex = 1;
