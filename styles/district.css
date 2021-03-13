@@ -136,3 +136,9 @@
     text-align: center;
     padding-bottom: 8px;
 }
+.district-maps {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
