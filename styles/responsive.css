@@ -45,4 +45,13 @@
     .main-nav{
         margin-left: 156px;
     }
+	.red-slider{
+		width: 100%;
+	}
+	.topnav.responsive .icon{
+		top: 40px;
+	}
+	.icon {
+		margin-top: -40px;
+	}
 }
