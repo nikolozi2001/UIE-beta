@@ -108,6 +108,7 @@
     position: static;
     right: 0;
     bottom: 0;
+	text-align: center;
 }
 .team-members {
 	margin-bottom: -5px;
