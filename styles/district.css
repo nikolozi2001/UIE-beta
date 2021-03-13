@@ -124,11 +124,18 @@
 }
 
 .center {
-    text-align: center;
+    width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+.center i {
+	margin-bottom: 10px;
 }
 .bold {
     font-weight: bold;
     font-size: 33px;
+	text-align: center;
+    display: block;
 }
 .jumbotron h2 {
     font-weight: bolder;
@@ -138,12 +145,11 @@
 }
 .district-maps {
     display: block;
-    /* margin-left: auto; */
     margin-right: auto;
     width: 40%;
 }
 .right-text{
-	float: right;
+	margin-bottom: auto !important;
 }
 .flex{
 	display: flex;
