@@ -291,22 +291,23 @@
 		</div>
 	</section>
 	<section class="red-slider3">
-		<div class="w3-container">
-			<h2 class="second-title"> <img class="globe" src="#" alt=""> Administrative Centers</h2>
-		  </div>
-		  
-		  <div class="w3-content w3-display-container">
-		  
-		  <div class="w3-display-container mySlides">
-			<img src="photos/trabzon.jpg" class="team-members">
-			<div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-				District Of Trabzon, Administrative Center of Lazeti
+		<div class="container">
+			<!-- BUTTONS (input/labels) -->
+			<input type="radio" name="slider" id="slide-1-trigger" class="trigger" checked>
+			<label class="btn" for="slide-1-trigger"></label>
+			<input type="radio" name="slider" id="slide-2-trigger" class="trigger">
+			<label class="btn" for="slide-2-trigger"></label>
+			<input type="radio" name="slider" id="slide-3-trigger" class="trigger">
+			<label class="btn" for="slide-3-trigger"></label>
+	
+			<!-- SLIDES -->
+			<div class="slide-wrapper">
+				<div id="slide-role">
+					<div class="slide slide-1"></div>
+					<div class="slide slide-2"></div>
+					<div class="slide slide-3"></div>
+				</div>
 			</div>
-		  </div>
-
-		  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-		  <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-		  
 		</div>
     </section>
 	<script src="js/myScript.js"></script>
