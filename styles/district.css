@@ -150,6 +150,7 @@
 }
 .right-text{
 	margin-bottom: auto !important;
+	margin-left: 10px;
 }
 .none {
 	display: none;
