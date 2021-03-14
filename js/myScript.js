@@ -31,3 +31,6 @@ var slideIndex = 1;
 	  }
 	  x[slideIndex-1].style.display = "block";  
 	}
+
+//another slider
+
