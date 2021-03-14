@@ -2,6 +2,12 @@
     .main-nav{
         margin-left: -127px;
     }
+	.none {
+		display: block;
+	}
+	.hide {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -42,16 +48,17 @@
     .box{
         height: 800px;
     }
+	.box2{
+		height: 200px;
+	}
     .main-nav{
         margin-left: 156px;
     }
 	.red-slider{
 		width: 100%;
 	}
-	.topnav.responsive .icon{
-		top: 40px;
-	}
+
 	.icon {
-		margin-top: -40px;
+		margin-top: 3px;
 	}
 }

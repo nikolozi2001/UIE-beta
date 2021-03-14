@@ -151,6 +151,9 @@
 .right-text{
 	margin-bottom: auto !important;
 }
+.none {
+	display: none;
+}
 .flex{
 	display: flex;
 	justify-content: center;
