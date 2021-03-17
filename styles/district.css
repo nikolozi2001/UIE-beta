@@ -1,217 +1,207 @@
-.main-nav{
-	float: right;
+.main-nav {
+  float: right;
 }
-.header-box{
-    background: #333;
+.header-box {
+  background: #333;
 }
 .topnav {
-	overflow: visible;
-	background-color: #333;
-  }
-  
-  .topnav a {
-	float: left;
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-  }
-  
-  .active {
-	color: white;
-  }
-  
-  .topnav .icon {
-	display: none;
-  }
-  
-  .dropdown {
-	float: left;
-	overflow: visible;
-  }
-  
-  .dropdown .dropbtn {
-	font-size: 17px;    
-	border: none;
-	outline: none;
-	color: white;
-	padding: 14px 16px;
-	background-color: inherit;
-	font-family: inherit;
-	margin: 0;
-  }
-  
-  .dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-  }
-  
-  .dropdown-content a {
-	float: none;
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-  }
-  
-  .topnav a:hover, .dropdown:hover .dropbtn {
-	background-color: #061035;
-	color: white;
-  }
-  
-  .dropdown-content a:hover {
-	background-color: #ddd;
-	color: black;
-  }
-  
-  .dropdown:hover .dropdown-content {
-	display: block;
-  }
-  
-  .header-box{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 50px;
+  overflow: visible;
+  background-color: #333;
 }
 
-.nav-a{
-	color: #D9F0FF;
-	font-family: 'Dancing Script';    
-	font-size: 30px;
-    padding-left: 20px;
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: visible;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #061035;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.nav-a {
+  color: #d9f0ff;
+  font-family: "Dancing Script";
+  font-size: 30px;
+  padding-left: 20px;
 }
 
 .header-Logo-Wrapper {
-	height: 100px;
-	width: 50%;
-	display: flex;
-	align-items: center;
+  height: 100px;
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
-.headerLogo{
-	height: 100%;
+.headerLogo {
+  height: 100%;
 }
-.red-slider{
-	width: 500px;
-	margin: auto;
+.red-slider {
+  width: 500px;
+  margin: auto;
 }
 
-.mySlides {display:none;}
+.mySlides {
+  display: none;
+}
 .w3-display-bottomright {
-    position: static;
-    right: 0;
-    bottom: 0;
-	text-align: center;
+  position: static;
+  right: 0;
+  bottom: 0;
+  text-align: center;
 }
 .team-members {
-	margin-bottom: -5px;
-	width: 100%;
+  margin-bottom: -5px;
+  width: 100%;
 }
 .second-title {
-    font-family: 'Lato', sans-serif;
-    font-size: 42px;
-    text-align: center;
-    color: black;
-    font-weight: bolder;
-    padding: 15px;
+  font-family: "Lato", sans-serif;
+  font-size: 42px;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  padding: 15px;
 }
 
 .center {
-    width: 400px;
-	display: flex;
-	flex-direction: column;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 .center i {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .bold {
-    font-weight: bold;
-    font-size: 33px;
-	text-align: center;
-    display: block;
+  font-weight: bold;
+  font-size: 33px;
+  text-align: center;
+  display: block;
 }
 .jumbotron h2 {
-    font-weight: bolder;
-    font-size: 36px;
-    text-align: center;
-    padding-bottom: 11px;
+  font-weight: bolder;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 11px;
 }
 .district-maps {
-    display: block;
-    margin-right: auto;
-    width: 30%;
+  display: block;
+  margin-right: auto;
+  width: 30%;
 }
-.right-text{
-	margin-bottom: auto !important;
-	margin-left: 10px;
-	text-align: justify;
+.right-text {
+  margin-bottom: auto !important;
+  margin-left: 10px;
+  text-align: justify;
 }
 .none {
-	display: none;
+  display: none;
 }
-.flex{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .quotes {
-	margin: 50px 0 50px 0;
+  margin: 50px 0 50px 0;
 }
 .bigText {
-<<<<<<< HEAD
-  width: 40%;
-  height: 220px;
-  margin: auto;
-  background-image: url(../photos/ac-background.jpg);
+  width: 100%;
+  height: 400px;
+  background-image: url(../photos/821858.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border: 5px solid darkred;
   padding: 10px;
-  text-align: center;
-=======
-	width: 100%;
-	height: 400px;
-	background-image: url(../photos/821858.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	border: 5px solid darkred;
-	padding: 10px;
->>>>>>> d90d382841a5cc28ca5b43cc26e070ef145eefff
 }
 .tq {
-	text-align: center;
-	font-family: 'Redressed';
-	font-size: 44px;
+  text-align: center;
+  font-family: "Redressed";
+  font-size: 44px;
 }
 .district-names {
-	font-family: 'Lobster';
-	font-size: 22px;
-	margin: 20px;
-	color: black;
+  font-family: "Lobster";
+  font-size: 22px;
+  margin: 20px;
+  color: black;
 }
 
 .exploring2 {
-	height: 20px;
-	width: 135px;
-	font-size: large;
-	font-weight: bold;
-	text-align: center;
-	text-transform: uppercase;
-	color: gray;
-	background: darkred;
-	float: right;
-	font-family: 'Caveat';
-	margin-top: -10px;
-	letter-spacing: 5px;
+  height: 20px;
+  width: 135px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: gray;
+  background: darkred;
+  float: right;
+  font-family: "Caveat";
+  margin-top: -10px;
+  letter-spacing: 5px;
 }
