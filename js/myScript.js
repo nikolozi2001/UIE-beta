@@ -8,10 +8,16 @@ function myFunction() {
   }
 
 // starts loader
-var overlay = document.getElementById("overlay");
-window.addEventListener('load',function (argument) {
-	overlay.style.display='none';
-})
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
 
 // slider js script
 var slideIndex = 1;
