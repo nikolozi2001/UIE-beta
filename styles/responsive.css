@@ -8,7 +8,21 @@
   .hide {
     display: none;
   }
+  .bigText{
+    width: 52%;
+  }
+  .bold{
+    margin-top: 10px;
+  }
 }
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child),
@@ -43,8 +57,27 @@
     width: 100%;
     text-align: left;
   }
+  .bigText{
+    height: auto;
+  }
 }
-
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
 @media only screen and (max-width: 375px) {
   .header-Logo-Wrapper {
     display: none;
@@ -64,8 +97,20 @@
   .red-slider {
     width: 100%;
   }
-
+  .district-maps{
+    display: none;
+  }
+  .hidden-district-maps{
+    display: block;
+    width: 100%;
+  }
+  .bold{
+    margin-top: 10px;
+  }
   .icon {
     margin-top: 3px;
+  }
+  .bigText{
+    width: 68%;
   }
 }
