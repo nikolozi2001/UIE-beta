@@ -342,11 +342,13 @@
 {
   background-color:#00aced
 }
-.social-icons a.linkedin:hover
+.social-icons a.youtube:hover
 {
-  background-color:#007bb6
+  background-color:#bb000b
 }
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
+
+
+.more{
+  text-decoration: underline;
+  float: right;
 }
