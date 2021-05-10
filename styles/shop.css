@@ -70,7 +70,7 @@
     background-image: url("/photos/freedom-eye.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 250px;
+    background-size: cover;
     transition: background-image 0.4s ease-in-out;
 }
 .product:hover .img_2 {
@@ -121,6 +121,118 @@
 .product:hover .img_6 {
     cursor: pointer;
     background-image: url("/photos/A_Drop_of_Faith.jpg");
+    background-size: 400px;
+}
+
+.img_7 {
+    background-image: url("/photos/Moon__Sea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_7 {
+    cursor: pointer;
+    background-image: url("/photos/Moon__Sea.jpg");
+}
+
+.img_8 {
+    background-image: url("/photos/dragon-eye.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_8 {
+    cursor: pointer;
+    background-image: url("/photos/dragon-eye.jpg");
+    background-position: top;
+}
+
+.img_9 {
+    background-image: url("/photos/Moon_Flower.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_9 {
+    cursor: pointer;
+    background-image: url("/photos/Moon_Flower.jpg");
+    background-size: 430px;
+}
+
+.img_10 {
+    background-image: url("/photos/sun-rays.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_10 {
+    cursor: pointer;
+    background-image: url("/photos/sun-rays2.jpg");
+}
+
+.img_11 {
+    background-image: url("/photos/Amethyst_Icicles.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_11 {
+    cursor: pointer;
+    background-image: url("/photos/Amethyst_Icicles.jpg");
+}
+
+.img_12 {
+    background-image: url("/photos/Pink-Fang.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_12 {
+    cursor: pointer;
+    background-image: url("/photos/Pink-Fang.jpg");
+}
+
+.img_13 {
+    background-image: url("/photos/dragon-flame.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_13 {
+    cursor: pointer;
+    background-image: url("/photos/dragon-flame.jpg");
+}
+
+.img_14 {
+    background-image: url("/photos/Talisman-of-Egyptian-Fertility.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_14 {
+    cursor: pointer;
+    background-image: url("/photos/Talisman-of-Egyptian-Fertility.jpg");
+    background-size: cover;
+}
+
+.img_15 {
+    background-image: url("/photos/Chinese-Talisman-from-Negativity.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_15 {
+    cursor: pointer;
+    background-image: url("/photos/Chinese-Talisman-from-Negativity.jpg");
     background-size: 400px;
 }
 
