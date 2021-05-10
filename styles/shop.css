@@ -56,71 +56,72 @@
     margin: auto;
 }
 .img_1 {
-    background-image: url("../img/shoes_model-1/img-1.PNG");
+    background-image: url("/photos/budda.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 150px;
+    background-size: 250px;
     transition: background-image 0.4s ease-in-out;
 }
 .product:hover .img_1 {
     cursor: pointer;
-    background-image: url("../img/shoes_model-1/img-3.PNG");
+    background-image: url("/photos/budda.jpg");
 }
 .img_2 {
-    background-image: url("../img/shoes_model-2/img-1.PNG");
+    background-image: url("/photos/freedom-eye.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 170px;
+    background-size: 250px;
     transition: background-image 0.4s ease-in-out;
 }
 .product:hover .img_2 {
     cursor: pointer;
-    background-image: url("../img/shoes_model-2/img-2.PNG");
+    background-image: url("/photos/Freedom_Eye2.jpg");
 }
 .img_3 {
-    background-image: url("../img/img_model-3/img-1.PNG");
+    background-image: url("/photos/sun-tears.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 170px;
+    background-size: 250px;
     transition: background-image 0.4s ease-in-out;
 }
 .product:hover .img_3 {
     cursor: pointer;
-    background-image: url("../img/img_model-3/img-2.PNG");
+    background-image: url("/photos/sun-tears.jpg");
 }
 .img_4 {
-    background-image: url("../img/img_model-4/img-1.PNG");
+    background-image: url("/photos/galaxy.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 170px;
+    background-size: 250px;
     transition: background-image 0.4s ease-in-out;
 }
 .product:hover .img_4 {
     cursor: pointer;
-    background-image: url("../img/img_model-4/img-2.PNG");
-    background-size: 120px;
+    background-image: url("/photos/galaxy.jpg");
 }
 .img_5 {
-    background-image: url("../img/img_model-5/img-1.PNG");
+    background-image: url("/photos/glorious.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 200px;
+    background-size: 250px;
     transition: background-image 0.4s ease-in-out;
 }
 .product:hover .img_5 {
     cursor: pointer;
-    background-image: url("../img/img_model-5/img-2.PNG");
+    background-image: url("/photos/glorious.jpg");
+    background-size: 200px;
 }
 .img_6 {
-    background-image: url("../img/img_model-6/img-1.PNG");
+    background-image: url("/photos/A_Drop_of_Faith.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 170px;
+    background-size: 250px;
     transition: background-image 0.4s ease-in-out;
 }
 .product:hover .img_6 {
     cursor: pointer;
-    background-image: url("../img/img_model-6/img-3.PNG");
+    background-image: url("/photos/A_Drop_of_Faith.jpg");
+    background-size: 400px;
 }
 
 .product__price__background {
