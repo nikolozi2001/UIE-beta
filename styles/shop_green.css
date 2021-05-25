@@ -1,0 +1,345 @@
+:root {
+    --main-color: #252422;
+    --secondary-color: green;
+    --darker-color: #403d39;
+    --light-color: #fffcf2;
+    --light-orange-color: #e88301;
+    --gray-color: #bebcb4;
+    --fb-color: #1877f2;
+    --tw-color: #1da1f2;
+    --in-color: #e1306c;
+}
+* {
+    box-sizing: border-box;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+    background-color: green;
+    color: white;
+}
+
+.product__section {
+    padding: 100px 100px;
+    text-align: center;
+    font-family: "Brygada 1918 sans-serif";
+}
+.product__section__title {
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.product__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--gray-color);
+    width: 300px;
+    text-align: left;
+    position: relative;
+    padding-bottom: 80px;
+    flex-basis: 27%;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+
+.product__item__img {
+    display: block;
+    width: 250px;
+    height: 210px;
+    padding: 30px;
+    margin: auto;
+}
+.img_1 {
+    background-image: url("/photos/budda.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_1 {
+    cursor: pointer;
+    background-image: url("/photos/budda.jpg");
+}
+.img_2 {
+    background-image: url("/photos/freedom-eye.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_2 {
+    cursor: pointer;
+    background-image: url("/photos/Freedom_Eye2.jpg");
+}
+.img_3 {
+    background-image: url("/photos/sun-tears.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_3 {
+    cursor: pointer;
+    background-image: url("/photos/sun-tears.jpg");
+}
+.img_4 {
+    background-image: url("/photos/galaxy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_4 {
+    cursor: pointer;
+    background-image: url("/photos/galaxy.jpg");
+}
+.img_5 {
+    background-image: url("/photos/glorious.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_5 {
+    cursor: pointer;
+    background-image: url("/photos/glorious.jpg");
+    background-size: 200px;
+}
+.img_6 {
+    background-image: url("/photos/A_Drop_of_Faith.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_6 {
+    cursor: pointer;
+    background-image: url("/photos/A_Drop_of_Faith.jpg");
+    background-size: 400px;
+}
+
+.img_7 {
+    background-image: url("/photos/Moon__Sea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_7 {
+    cursor: pointer;
+    background-image: url("/photos/Moon__Sea.jpg");
+}
+
+.img_8 {
+    background-image: url("/photos/dragon-eye.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_8 {
+    cursor: pointer;
+    background-image: url("/photos/dragon-eye.jpg");
+    background-position: top;
+}
+
+.img_9 {
+    background-image: url("/photos/Moon_Flower.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_9 {
+    cursor: pointer;
+    background-image: url("/photos/Moon_Flower.jpg");
+    background-size: 430px;
+}
+
+.img_10 {
+    background-image: url("/photos/sun-rays.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_10 {
+    cursor: pointer;
+    background-image: url("/photos/sun-rays2.jpg");
+}
+
+.img_11 {
+    background-image: url("/photos/Amethyst_Icicles.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_11 {
+    cursor: pointer;
+    background-image: url("/photos/Amethyst_Icicles.jpg");
+}
+
+.img_12 {
+    background-image: url("/photos/Pink-Fang.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_12 {
+    cursor: pointer;
+    background-image: url("/photos/Pink-Fang.jpg");
+}
+
+.img_13 {
+    background-image: url("/photos/dragon-flame.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_13 {
+    cursor: pointer;
+    background-image: url("/photos/dragon-flame.jpg");
+}
+
+.img_14 {
+    background-image: url("/photos/Talisman-of-Egyptian-Fertility.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_14 {
+    cursor: pointer;
+    background-image: url("/photos/Talisman-of-Egyptian-Fertility.jpg");
+    background-size: cover;
+}
+
+.img_15 {
+    background-image: url("/photos/Chinese-Talisman-from-Negativity.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    transition: background-image 0.4s ease-in-out;
+}
+.product:hover .img_15 {
+    cursor: pointer;
+    background-image: url("/photos/Chinese-Talisman-from-Negativity.jpg");
+    background-size: 400px;
+}
+
+.product__price__background {
+    position: relative;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+    align-self: flex-end;
+}
+
+.product__price {
+    color: var(--light-color);
+    font-size: 18px;
+}
+.product__description {
+    font-weight: bold;
+    margin: 15px 0;
+    padding: 0 10px;
+    height: 30px;
+}
+.product__evaluation {
+    padding: 0 10px;
+}
+.product__evaluation__star {
+    width: 25px;
+}
+
+.product__view__background {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--main-color);
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    color: var(--light-color);
+}
+.product__view__background:hover {
+    color: var(--secondary-color);
+}
+.product__view {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.view__more__btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    padding: 15px 20px;
+    margin: auto;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.view__more__btn--overlay {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    background-color: var(--main-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+}
+.view__more__btn--arrow {
+    height: 20px;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+}
+.view__more__btn__text {
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 18px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.view__more__btn:hover .view__more__btn--overlay {
+    width: 300px;
+}
+.view__more__btn:hover .view__more__btn--arrow {
+    width: 100px;
+}
+
+.title--key {
+    color: var(--secondary-color);
+}
+
+.shop-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.shop-main-photo {
+    width: 20%;
+}
+
+.shop-main-description {
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: "Poppins";
+    color: green;
+}
